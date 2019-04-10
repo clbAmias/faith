@@ -1,4 +1,4 @@
-package com.qd.kafka;
+package com.learn.kafka;
 
 import kafka.admin.AdminUtils;
 import kafka.utils.ZkUtils;

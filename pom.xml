@@ -63,7 +63,7 @@
 
 	</dependencies>
 
-
+	<!-- spring cloud 客户端配置 -->
 	<!--<dependencyManagement>-->
 		<!--<dependencies>-->
 			<!--<dependency>-->

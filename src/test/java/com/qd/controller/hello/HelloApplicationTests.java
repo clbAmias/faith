@@ -1,4 +1,4 @@
-package com.qd.hello;
+package com.qd.controller.hello;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
