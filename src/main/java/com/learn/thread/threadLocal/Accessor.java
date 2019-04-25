@@ -1,4 +1,6 @@
-package com.qd.thread.threadLocal;
+package com.learn.thread.threadLocal;
+
+import com.learn.thread.threadLocal.ThreadLocalVariableHolder;
 
 import java.util.Random;
 import java.util.concurrent.ExecutorService;

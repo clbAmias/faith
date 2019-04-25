@@ -1,4 +1,4 @@
-package com.qd.thread.cyclicBarrier;
+package com.learn.thread.cyclicBarrier;
 
 import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.TimeUnit;

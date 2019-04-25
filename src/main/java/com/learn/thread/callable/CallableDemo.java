@@ -1,4 +1,4 @@
-package com.qd.thread.callable;
+package com.learn.thread.callable;
 
 import java.util.ArrayList;
 import java.util.concurrent.ExecutionException;

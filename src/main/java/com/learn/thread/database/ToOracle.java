@@ -1,4 +1,4 @@
-package com.qd.thread.database;
+package com.learn.thread.database;
 
 /**
  * Created by chenlongbo on 2017/6/20.

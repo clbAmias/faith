@@ -1,8 +1,4 @@
-package com.qd.thread.producerConsumer;
-
-
-import com.qd.thread.producerConsumer.Storage.Consumer;
-import com.qd.thread.producerConsumer.Storage.Producer;
+package com.learn.thread.producerConsumer;
 
 /**
  * Created by chenlongbo on 2017/4/24.
@@ -14,17 +10,19 @@ public class StorageTest {
 
 
         // 生产者对象
-        Producer p1 = new Producer(storage);
-        Producer p2 = new Producer(storage);
-        Producer p3 = new Producer(storage);
-        Producer p4 = new Producer(storage);
-        Producer p5 = new Producer(storage);
+        Storage.Producer p1 = new Storage.Producer(storage);
+        Storage.Producer p2 = new Storage.Producer(storage);
+        Storage.Producer p3 = new Storage.Producer(storage);
+        Storage.Producer p4 = new Storage.Producer(storage);
+        Storage.Producer p5 = new Storage.Producer(storage);
+
 
 
         // 消费者对象
-        Consumer c1 = new Consumer(storage);
-        Consumer c2 = new Consumer(storage);
-        Consumer c3 = new Consumer(storage);
+        Storage.Consumer c1 = new Storage.Consumer(storage);
+        Storage.Consumer c2 = new Storage.Consumer(storage);
+        Storage.Consumer c3 = new Storage.Consumer(storage);
+
 
         // 设置生产者产品生产数量
         p1.setNum(10);

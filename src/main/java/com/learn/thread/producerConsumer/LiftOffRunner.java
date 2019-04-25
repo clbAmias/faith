@@ -1,4 +1,6 @@
-package com.qd.thread.producerConsumer;
+package com.learn.thread.producerConsumer;
+
+import com.learn.thread.producerConsumer.LiftOff;
 
 import java.util.concurrent.BlockingQueue;
 

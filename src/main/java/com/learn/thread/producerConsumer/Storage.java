@@ -1,4 +1,4 @@
-package com.qd.thread.producerConsumer;
+package com.learn.thread.producerConsumer;
 
 import java.util.LinkedList;
 import java.util.concurrent.locks.Condition;

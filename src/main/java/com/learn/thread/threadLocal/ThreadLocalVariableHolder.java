@@ -1,4 +1,4 @@
-package com.qd.thread.threadLocal;
+package com.learn.thread.threadLocal;
 
 import java.util.Random;
 import java.util.concurrent.ExecutorService;
@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by chenlongbo on 2017/4/25.
  */
-class ThreadLocalVariableHolder{
+public class ThreadLocalVariableHolder{
     private static ThreadLocal<Integer> value = new ThreadLocal<Integer>(){
         private Random rand = new Random(47);
         protected synchronized Integer initialValue(){

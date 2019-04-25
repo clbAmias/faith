@@ -1,9 +1,9 @@
-package com.qd.sort;
+package com.learn.sort;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class A {
+public class Genericity {
 
 
 

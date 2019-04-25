@@ -1,4 +1,4 @@
-package com.qd.math40;
+package com.learn.math40;
 
 /**
  * Created by chenlongbo on 2017/6/3.

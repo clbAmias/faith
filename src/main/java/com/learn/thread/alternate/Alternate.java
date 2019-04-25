@@ -1,4 +1,4 @@
-package com.qd.thread.alternate;
+package com.learn.thread.alternate;
 
 /**
  * Created by chenlongbo on 2017/4/21.

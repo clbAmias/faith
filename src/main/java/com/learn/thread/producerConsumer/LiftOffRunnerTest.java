@@ -1,4 +1,4 @@
-package com.qd.thread.producerConsumer;
+package com.learn.thread.producerConsumer;
 
 import java.io.BufferedReader;
 import java.io.IOException;

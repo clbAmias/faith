@@ -1,4 +1,4 @@
-package com.qd.thread.countDownLatch;
+package com.learn.thread.countDownLatch;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;

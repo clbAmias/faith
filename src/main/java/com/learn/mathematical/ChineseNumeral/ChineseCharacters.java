@@ -1,4 +1,4 @@
-package com.qd.mathematical.ChineseNumeral;
+package com.learn.mathematical.ChineseNumeral;
 
 import java.math.BigDecimal;
 /**

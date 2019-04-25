@@ -1,4 +1,4 @@
-package com.qd.thread.producerConsumer;
+package com.learn.thread.producerConsumer;
 
 /**
  * Created by chenlongbo on 2017/4/25.

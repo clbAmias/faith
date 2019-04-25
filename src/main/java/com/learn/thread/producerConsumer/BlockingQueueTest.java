@@ -1,4 +1,4 @@
-package com.qd.thread.producerConsumer;
+package com.learn.thread.producerConsumer;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;

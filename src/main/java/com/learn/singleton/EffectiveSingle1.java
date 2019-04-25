@@ -1,4 +1,4 @@
-package com.qd.singleton;
+package com.learn.singleton;
 
 /**
  * Created by chenlongbo on 2017/4/24.

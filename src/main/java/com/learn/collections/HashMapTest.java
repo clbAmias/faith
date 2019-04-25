@@ -1,4 +1,4 @@
-package com.qd.collections;
+package com.learn.collections;
 
 import java.util.ArrayList;
 import java.util.HashMap;

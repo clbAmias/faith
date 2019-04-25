@@ -1,4 +1,4 @@
-package com.qd.thread.finalClass;
+package com.learn.thread.finalClass;
 
 /**
  * Created by chenlongbo on 2017/6/20.
