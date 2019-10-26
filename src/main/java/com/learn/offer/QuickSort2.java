@@ -31,8 +31,8 @@ public class QuickSort2 {
     }
 
     private int partition(int[] data, int start, int end) {
-        int index = start + (int)(Math.random() * (end - start + 1));
-        swap(data, index, end);
+        //int index = start + (int)(Math.random() * (end - start + 1));
+        //swap(data, index, end);
         int small = start - 1;
         for (int i = start; i < end; i++) {
             if (data[i] < data[end]) {
