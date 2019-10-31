@@ -1,11 +1,9 @@
-26.
-    25号爬完黄山回来.开启新的生活.
-    学习jvm调优,tomcat调优
 
-27.
-    小笼包,牛肉,面条,王者
-    springcloud组件 eureka,ribbon,feign,hystrix,config
 
 28.微服务监控调用链,hystrix熔断,调用的下游怎么处理.
 
-29.B站面试:股票最大收益算法, redis cluster深入学习   
+29.B站:股票最大收益算法, redis cluster深入学习
+
+30.携程,所有接口都超时,要排查内存. 设计高性能的mq. 产品线的业务逻辑.
+
+31.jetty,bio,nio,redis流量削峰,springboot如何内置的tomcat

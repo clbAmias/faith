@@ -46,7 +46,7 @@ public class QuickSort2 {
         return small + 1;
     }
 
-    private void swap(int[] data, int i, int j){
+    private void swap(int[] data, int i, int j) {
         int temp = data[i];
         data[i] = data[j];
         data[j] = temp;

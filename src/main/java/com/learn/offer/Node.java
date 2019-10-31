@@ -1,6 +1,6 @@
 package com.learn.offer;
 
-public  class Node {
+public class Node {
     String val;
     Node next;
 

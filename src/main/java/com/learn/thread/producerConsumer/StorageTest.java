@@ -17,7 +17,6 @@ public class StorageTest {
         Storage.Producer p5 = new Storage.Producer(storage);
 
 
-
         // 消费者对象
         Storage.Consumer c1 = new Storage.Consumer(storage);
         Storage.Consumer c2 = new Storage.Consumer(storage);

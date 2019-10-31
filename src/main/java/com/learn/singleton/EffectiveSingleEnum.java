@@ -6,6 +6,7 @@ package com.learn.singleton;
 // Effective Java 第二版推荐写法
 public enum EffectiveSingleEnum {
     INSTANCE;
+
     public void fun1() {
         // do something
     }

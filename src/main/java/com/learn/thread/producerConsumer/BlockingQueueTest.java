@@ -11,12 +11,12 @@ import java.util.concurrent.BlockingQueue;
 public class BlockingQueueTest {
     public static void main(String[] args) {
         final BlockingQueue queue = new ArrayBlockingQueue(3);
-        for(int i=0;i<2;i++){
-            new Thread(){
-                public void run(){
-                    while(true){
+        for (int i = 0; i < 2; i++) {
+            new Thread() {
+                public void run() {
+                    while (true) {
                         try {
-                            Thread.sleep((long)(Math.random()*1000));
+                            Thread.sleep((long) (Math.random() * 1000));
                             System.out.println(Thread.currentThread().getName() + "准备放数据!");
                             queue.put(1);
                             System.out.println(Thread.currentThread().getName() + "已经放了数据，" +
@@ -31,9 +31,9 @@ public class BlockingQueueTest {
             }.start();
         }
 
-        new Thread(){
-            public void run(){
-                while(true){
+        new Thread() {
+            public void run() {
+                while (true) {
                     try {
                         //将此处的睡眠时间分别改为100和1000，观察运行结果
                         Thread.sleep(1000);

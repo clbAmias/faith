@@ -1,0 +1,33 @@
+4.
+java8的concurrenthashmap用的是cas和synchronized,put时如果是链表的第一个元素,则不加锁,cas直接put,
+如果不是则synchronized第一个链表元素
+
+springboot加载配置 ,是用的监听,
+在同一目录下，properties配置优先级 > YAML配置优先级。//所以我们在jar包启动时带上properties写法的配置可以覆盖配置
+SpringBoot配置文件可以放置在多种路径下，不同路径下的配置优先级有所不同。
+可放置目录(优先级从高到低)
+file:./config/ (当前项目路径config目录下);
+file:./ (当前项目路径下);
+classpath:/config/ (类路径config目录下);
+classpath:/ (类路径config下).
+
+springboot内置启动tomcat
+在refreshContext刷新上下文的时候,会调用createWebServer,TomcatServletWebServerFactory实现类,
+getWebServer方法创建了Tomcat对象
+tomcat的启动主要是实例化两个组件：Connector、Container，一个tomcat实例就是一个Server，
+一个Server包含多个Service，也就是多个应用程序，每个Service包含多个Connector和一个Container，而一个Container下又包含多个子容器。
+
+Oracle里支持的隔离级别：read committed/serializable,默认的是read committed，
+而MySQl支持的隔离级别：read uncommitted/read committed/repeatable read/serializable，默认的是repeatable read;
+先说结论：Oracle的read committed的锁力度和隔离级别相当于MySQL的read committed，因此Oracle里默认的一致读
+
+
+
+7.
+股票最大收益算法 动态规划.
+
+
+8.
+121.199.21.168 -p Zhao7890     Mysql!2345678
+
+ssh root@111.229.235.223  -p g%{8=Z?;MSc-2NkY

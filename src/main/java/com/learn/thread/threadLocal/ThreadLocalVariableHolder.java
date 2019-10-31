@@ -8,18 +8,20 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by chenlongbo on 2017/4/25.
  */
-public class ThreadLocalVariableHolder{
-    private static ThreadLocal<Integer> value = new ThreadLocal<Integer>(){
+public class ThreadLocalVariableHolder {
+    private static ThreadLocal<Integer> value = new ThreadLocal<Integer>() {
         private Random rand = new Random(47);
-        protected synchronized Integer initialValue(){
+
+        protected synchronized Integer initialValue() {
             return rand.nextInt(10000);
         }
     };
 
-    public static void increment(){
+    public static void increment() {
         value.set(value.get() + 1);
     }
-    public static int get(){
+
+    public static int get() {
         return value.get();
     }
 

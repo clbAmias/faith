@@ -6,7 +6,10 @@ package com.learn.singleton;
 //饿汉式实现
 public class SingleB {
     private static final SingleB INSTANCE = new SingleB();
-    private SingleB() {}
+
+    private SingleB() {
+    }
+
     public static SingleB getInstance() {
         return INSTANCE;
     }
