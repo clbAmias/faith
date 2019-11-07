@@ -20,3 +20,8 @@ tomcat的启动主要是实例化两个组件：Connector、Container，一个to
 Oracle里支持的隔离级别：read committed/serializable,默认的是read committed，
 而MySQl支持的隔离级别：read uncommitted/read committed/repeatable read/serializable，默认的是repeatable read;
 先说结论：Oracle的read committed的锁力度和隔离级别相当于MySQL的read committed，因此Oracle里默认的一致读
+
+
+
+7.
+股票最大收益算法 动态规划.
