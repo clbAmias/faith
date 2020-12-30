@@ -1,4 +1,4 @@
-package com.qd.sort;
+package com.learn.sort;
 
 public class BubbleSort {
 
