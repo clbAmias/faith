@@ -6,25 +6,25 @@ package com.learn.thread.alternate;
  * 要求:线程1打印5个之后，线程2开始打印，线程2打印5个之后，线程1再开始打印，以此循环。
  */
 public class Alternate {
-    private  static int state = 1;
-    private  static int num1 = 1;
-    private  static int num2 = 2;
+    private static int state = 1;
+    private static int num1 = 1;
+    private static int num2 = 2;
 
     public static void main(String[] args) {
         final Alternate a = new Alternate();
         new Thread(
                 new Runnable() {
                     public void run() {
-                        while (num1 < 100){
-                            synchronized(a){
-                                if(a.state != 1){
+                        while (num1 < 100) {
+                            synchronized (a) {
+                                if (a.state != 1) {
                                     try {
                                         a.wait();
                                     } catch (InterruptedException e) {
                                         e.printStackTrace();
                                     }
                                 }
-                                for (int i = 0; i < 5;i++){
+                                for (int i = 0; i < 5; i++) {
                                     System.out.println(num1);
                                     num1 += 2;
                                 }
@@ -39,16 +39,16 @@ public class Alternate {
         new Thread(
                 new Runnable() {
                     public void run() {
-                        while (num2 < 100){
-                            synchronized(a){
-                                if(a.state != 2){
+                        while (num2 < 100) {
+                            synchronized (a) {
+                                if (a.state != 2) {
                                     try {
                                         a.wait();
                                     } catch (InterruptedException e) {
                                         e.printStackTrace();
                                     }
                                 }
-                                for (int i = 0; i < 5;i++){
+                                for (int i = 0; i < 5; i++) {
                                     System.out.println(num2);
                                     num2 += 2;
                                 }

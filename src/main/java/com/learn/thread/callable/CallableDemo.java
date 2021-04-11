@@ -17,7 +17,7 @@ public class CallableDemo {
             futures.add(exec.submit(new TaskWithResult(i)));
         }
 
-        for(Future<String> fs:futures){
+        for (Future<String> fs : futures) {
             try {
                 System.out.println(fs.get());
             } catch (InterruptedException e) {
@@ -27,7 +27,7 @@ public class CallableDemo {
             } catch (ExecutionException e) {
                 System.out.println(e);
                 e.printStackTrace();
-            }finally {
+            } finally {
                 exec.shutdown();
             }
         }

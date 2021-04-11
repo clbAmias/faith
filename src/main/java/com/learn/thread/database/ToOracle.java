@@ -3,6 +3,7 @@ package com.learn.thread.database;
 /**
  * Created by chenlongbo on 2017/6/20.
  */
+
 import java.io.*;
 
 import java.sql.*;
@@ -69,17 +70,17 @@ public class ToOracle {
 
             thread.run(n);
 
-/*
+            /*
 
-* int n=10; for (int i = 1; i <= 21; i++) { while(0 <n){ sqlstr[i] =
+             * int n=10; for (int i = 1; i <= 21; i++) { while(0 <n){ sqlstr[i] =
 
-* in + tablename + in1; thread[i] = new ThreadUseExtends(blobname,
+             * in + tablename + in1; thread[i] = new ThreadUseExtends(blobname,
 
-* clobname, sqlstr[i]); thread[i].start(); n--; }
+             * clobname, sqlstr[i]); thread[i].start(); n--; }
 
-* System.out.println("线程" + i + "已经启动"); }
+             * System.out.println("线程" + i + "已经启动"); }
 
-*/
+             */
 
 //System.out.println("线程1已经启动");
 

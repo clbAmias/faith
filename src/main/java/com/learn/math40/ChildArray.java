@@ -28,7 +28,7 @@ public class ChildArray {
             count++;
         }
         System.out.println("数组长度=" + array.length + "||时间复杂度=" + count);
-        System.out.println("最大值:"+all);
+        System.out.println("最大值:" + all);
         return all;
     }
 }

@@ -12,7 +12,7 @@ public class HelloCtrl {
 
 
     @RequestMapping(value = "/hello")
-    public String index(){
+    public String index() {
         return "hello world";
     }
 

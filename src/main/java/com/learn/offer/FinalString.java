@@ -5,7 +5,7 @@ public class FinalString {
      * https://www.cnblogs.com/xiaoxi/p/6036701.html
      **/
 
-    public static void main(String[] args)  {
+    public static void main(String[] args) {
         String a = "hello2";
 
         final String b = "hello";

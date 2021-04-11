@@ -6,9 +6,6 @@ import java.util.List;
 public class Genericity {
 
 
-
-
-
     public static void main(String[] args) {
         /** 泛型的原生**/
 

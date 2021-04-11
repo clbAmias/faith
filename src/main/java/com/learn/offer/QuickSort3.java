@@ -1,4 +1,4 @@
-package algorithm;
+package com.learn.offer;
 
 import java.util.Arrays;
 
@@ -17,6 +17,7 @@ public class QuickSort3 {
 
     /**
      * 快排
+     *
      * @param arr
      * @param left
      * @param right
@@ -25,7 +26,7 @@ public class QuickSort3 {
         //声明一个数来存 基准数
 
 
-        if (data == null || left < 0 || right > data.length - 1) {
+        if (arr == null || left < 0 || right > arr.length - 1) {
             throw new IllegalArgumentException("Invalid Parameters");
         }
 
