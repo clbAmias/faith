@@ -1,0 +1,16 @@
+
+ssh root@111.229.235.223  -p g%{8=Z?;MSc-2NkY
+
+121.199.21.168 -p Zhao7890
+
+mysql密码:Mysql!2345678
+
+mq  121.199.21.168:9876
+
+nacos控制台 http://nacos.mcl2rock.cn/nacos/index.html  http://121.199.21.168:8848/nacos/index.html
+
+rocketmq控制台 http://rocketmq.mcl2rock.cn/#/
+
+服务器121.199.21.168 目前是: Zhao!234
+
+缓存穿透: 当高并发查询不存在的数据，由于缓存不命中，去查询数据库也无法查询出结果，不会写入到缓存中，会导致每个查询都去请求数据库，造成缓存穿透。
