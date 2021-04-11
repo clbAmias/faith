@@ -1,17 +1,15 @@
-package com.qd.controller.hello;
+package com.qd;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.core.env.ConfigurableEnvironment;
-//import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
-//@EnableDiscoveryClient
 @SpringBootApplication
-public class HelloApplication {
+public class MainApplication {
 
     public static void main(String[] args) {
-        ConfigurableApplicationContext applicationContext = SpringApplication.run(HelloApplication.class, args);
+        ConfigurableApplicationContext applicationContext = SpringApplication.run(MainApplication.class, args);
 
         System.out.println("-----applicationName:" + applicationContext.getApplicationName());
         ConfigurableEnvironment environment = applicationContext.getEnvironment();
