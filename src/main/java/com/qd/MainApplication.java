@@ -16,14 +16,5 @@ public class MainApplication {
 
         System.out.println("-----server.port:" + environment.getProperty("server.port"));
         System.out.println("-----server.context-path:" + environment.getProperty("server.context-path"));
-
-
-        System.out.println(1);
-
-        System.out.println(2);
-
-        System.out.println(3);
-
-
     }
 }
