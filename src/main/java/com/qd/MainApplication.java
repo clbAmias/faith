@@ -22,6 +22,8 @@ public class MainApplication {
 
         System.out.println(2);
 
+        System.out.println(3);
+
 
     }
 }
